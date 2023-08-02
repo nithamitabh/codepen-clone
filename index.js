@@ -41,7 +41,7 @@ function initializeCodeEditors() {
             lineNumbers: true,
             autoCloseTags: true,
             autoCloseBrackets: true,
-            theme: 'panda-syntax'
+            theme: 'blackboard'
         };
         if (object) {
             const keys = Object.keys(object);

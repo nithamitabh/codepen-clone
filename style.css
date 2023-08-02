@@ -9,7 +9,8 @@ body {
 }
 
 .header {
-  background: #000;
+  background: rgba(6, 11, 118, 0.655);
+  backdrop-filter: blur(160px);
   color: #fff;
   height: 60px;
   border-bottom: 5px solid #333;
@@ -29,7 +30,7 @@ body {
 }
 
 .header .title .sub-title span {
-  color: #999;
+  color: #1b178d;
 }
 
 .editor {
@@ -38,19 +39,22 @@ body {
   float: left;
   box-sizing: border-box;
   position: relative;
+  font-weight: 300;
+  font-size: 18px;
+  color:rgb(29, 68, 210)
 }
 
 .editor #html {
-  border-right: 1px solid #777;
+  border-right: 1px solid #db1010da;
 }
 
 .editor #css {
-  border-left: 20px solid #333;
-  border-right: 1px solid #777;
+  border-left: 20px solid #ba0606;
+  border-right: 1px solid #d81717;
 }
 
 .editor #js {
-  border-left: 20px solid #333;
+  border-left: 20px solid #820b0b;
 }
 
 .code-block {
@@ -66,7 +70,7 @@ body {
   /* background-color: red; */
   height: calc(90vh - 30px);
   background-color: #fff;
-  border-top: 10px ridge #333;
+  border-top: 10px ridge #214c24;
 }
 .web-op iframe {
   width: 100%;
